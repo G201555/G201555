@@ -12,7 +12,7 @@ Pipelines, qualidade de dados e sistemas em produção para **Roku**, **Penalty*
 
 Esses projetos foram feitos para clientes da agência em que trabalho; o código é privado porque traz dados dos clientes.
 
-#### Em construção (código aberto, dados públicos)
+#### Próximos projetos (código aberto, dados públicos)
 
 - Detecção de anomalias em coleta de campo: regras × Isolation Forest e LOF
 - Previsão de vendas no varejo com avaliação contra um modelo de referência
