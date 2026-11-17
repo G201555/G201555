@@ -1,31 +1,28 @@
-### Olá, eu sou o Felipe Gabriel
+### Felipe Gabriel · Dados e IA aplicada
 
-Analista de BI e desenvolvedor numa agência de trade marketing, atendendo marcas como **Roku**, **Penalty** e **Nintendo**. Transformo o que a equipe de campo coleta no ponto de venda em dados confiáveis e em ferramentas que clientes e equipes usam todo dia.
+Pipelines, qualidade de dados e sistemas em produção para **Roku**, **Penalty** e **Nintendo**. Próximo passo: ciência de dados e IA aplicada.
 
-Trabalho na ponta inteira: extraio do app de coleta, modelo no SQL Server, automatizo com Python e entrego em sistemas web, Power BI ou Office.
+🌐 **Portfólio:** [portfolio-felipe-gabriel.web.app](https://portfolio-felipe-gabriel.web.app)
 
-```
-app de coleta  →  SQL Server  →  Python (ETL)  →  Firebase · Power BI · Excel/PowerPoint
-```
+#### Em destaque
 
-#### O que já construí
+- **Sistema de Trade Marketing**: sistema completo, usado todo dia pela equipe da Roku no PC e no celular (FastAPI, PostgreSQL, JavaScript).
+- **Visitas que zeravam indicadores**: achei o padrão que derrubava os números dos BIs e criei uma regra que exclui os casos futuros sozinha, validada em cada relatório (SQL Server, Python, Power BI).
+- **Pipelines diários de dados**: do banco ao site, sem intervenção, para os painéis das três marcas (Python, PowerShell, Firestore).
 
-- **Sistema de trade marketing** usado diariamente pela equipe da conta Roku: visitas, roteiros, treinamentos, metas e fluxos de aprovação (FastAPI, PostgreSQL, JavaScript).
-- **Painéis web com login** para Roku, Penalty e Nintendo: execução de campo, visão por loja, comparação com a concorrência e fotos de execução (Firebase Auth, Firestore, Hosting).
-- **Relatórios mensais automáticos**: um robô puxa os números do banco e a página não tem nenhum valor escrito à mão.
-- **Avaliação de desempenho 9-box** com perfis de acesso por papel (admin, supervisor, leitor, consultor).
-- **Auditorias de Power BI** que corrigiram números em produção: datas em texto, denominadores errados e visitas que zeravam indicadores.
-- **Automação de Office**: planilhas e apresentações preenchidas a partir do banco, preservando a formatação original (Excel/PowerPoint COM, python-pptx).
+Esses projetos foram feitos para clientes da agência em que trabalho; o código é privado porque traz dados dos clientes.
 
-Esses projetos foram feitos para clientes da agência; as marcas aparecem só para dar contexto. O código é privado porque traz dados dos clientes, mas posso mostrar os projetos numa conversa.
+#### Em construção (código aberto, dados públicos)
 
-🌐 Portfólio completo: **[portfolio-felipe-gabriel.web.app](https://portfolio-felipe-gabriel.web.app)**
+- Detecção de anomalias em coleta de campo: regras × Isolation Forest e LOF
+- Previsão de vendas no varejo com avaliação contra um modelo de referência
+- Assistente de legislação com LLM e RAG, com avaliação das respostas
 
 #### Ferramentas
 
-`SQL Server` `PostgreSQL` `Python` `pandas` `Power BI` `DAX` `Power Query` `FastAPI` `Flask` `JavaScript` `Firebase` `PowerShell` `Excel` `PowerPoint`
+`Python` `pandas` `SQL Server` `PostgreSQL` `FastAPI` `Power BI` `DAX` `JavaScript` `Firebase` · estudando `scikit-learn` `séries temporais` `LLMs` `RAG`
 
 #### Repositórios públicos
 
-- [Consulta de NF-e e NFS-e no Omie](https://github.com/G201555/Projeto-de-Consulta-de-NF-no-OMIE): app Flask que consulta notas fiscais pela API do ERP Omie.
-- [Modelo de dados de oficina mecânica](https://github.com/G201555/DiagramaMySQL2) e [de e-commerce](https://github.com/G201555/DiagramaMySQL): modelagem entidade-relacionamento no MySQL Workbench.
+- [Consulta de NF-e e NFS-e no Omie](https://github.com/G201555/Projeto-de-Consulta-de-NF-no-OMIE): app Flask sobre a API do ERP Omie
+- [Modelo de dados de oficina](https://github.com/G201555/DiagramaMySQL2) e [de e-commerce](https://github.com/G201555/DiagramaMySQL): modelagem entidade-relacionamento
